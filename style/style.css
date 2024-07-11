@@ -4,7 +4,7 @@
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
+    "wdth" 100;
   }
   /* Shared Style */
   .text-primary
@@ -24,6 +24,10 @@
   .dark-2
   {
     color: #474747;
+  }
+  .background-primary
+  {
+    background-color: #FFF8F3;
   }
   /* Header Section */
   .header
@@ -87,4 +91,62 @@
   .banner-text{
     font-size: 18px
   }
-  
+  /* main section */
+  main
+  {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  main section
+  {
+    margin-top: 130px;
+    margin-bottom: 130px;
+  }
+  /* About Section */
+  .about{
+    margin-top: 130px;
+    padding: 131px 156px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .section-title
+  {
+    align-items: center;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  .section-description
+  {
+    margin-bottom: 30px;
+  }
+ .about-items
+ {
+  display: flex;
+  justify-content: space-around;
+ }
+ .item-description
+ {
+  font-weight: 600;
+ }
+
+ /* skill section */
+
+ .skill-title
+ {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+ }
+ .skill-descrition{
+  text-align: center;
+  font-size: 18px;
+ }
+ .skill-container
+ {
+  display: flex;
+ }
+ .skill{
+  padding: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ }
+ 
